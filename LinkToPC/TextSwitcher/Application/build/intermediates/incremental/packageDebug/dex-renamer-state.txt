@@ -1,0 +1,7 @@
+#Tue Dec 20 13:42:55 CST 2016
+base.0=E\:\\GitCode\\Android\\LinkToPC\\TextSwitcher\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ea99b55fb50ec32f32624041df956ff385dc2a3a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\GitCode\\Android\\LinkToPC\\TextSwitcher\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_277ebd45b975aa8347593a07ab979487f4eb10bd\\classes.dex
+base.1=E\:\\GitCode\\Android\\LinkToPC\\TextSwitcher\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_277ebd45b975aa8347593a07ab979487f4eb10bd
+file.0=E\:\\GitCode\\Android\\LinkToPC\\TextSwitcher\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ea99b55fb50ec32f32624041df956ff385dc2a3a\\classes.dex

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a84afb2e30507d5a5684e4cbab2e08aae2a85b51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_9a838286e1b311ca906febe23bebedfb055da20f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_095f9236e64aac9f3601417e89e6bd2c0d971e13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_35c10815ab972a850284893b5ce8c96a2f1c3fdb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_9dee7eccedb1bc531a70aabef41f19a875aa7599\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5278242678b8982c3b5aa6c93390a6dc33b1edb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_2403247fda9e0d0075a2b2a3646ad60214d42de6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_6571692a1f659e717f9a1d6072e55d78c628698d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4700f436ede140fb804204f806c9cc3f08e386f4">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-gridlayout-v7-25.0.1_b9130a9f93b2c48ef9b325cc00374545b0a954cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_ea70f18ff63516b76dc007777b83149d395369f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_a675dd43e40e2ce30d10c54c87f56ece7f7d9715\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_00a4b1d82bb61ac99ef9856853c537d4b11e279f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_3ae4a80357386eff6f22b0c3163e9c3edd594f40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="913ef15c70166c3b867fe9b0c1365b3bf365a251">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_277ebd45b975aa8347593a07ab979487f4eb10bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_a284eb2b11607da2728b0fb9fbd72996504dcf90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1cb7fb1028122d76c93466c4b3044df63add893b">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ea99b55fb50ec32f32624041df956ff385dc2a3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_142eb58f2d6b05d9074560874c6b45e0d26c629c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_b6866024eed1c43be2bc1a0915381346e7dd31dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="E:\GitCode\Android\LinkToPC\TextSwitcher\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_00fd2ea308916a495758de2fa3111b536e029a79\classes.dex" />
+    </item>
+
+</items>
