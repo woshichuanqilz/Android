@@ -13,7 +13,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Command"
+        android:text=""
         android:ems="10"
         android:id="@+id/Command"
         android:layout_alignParentTop="true"
@@ -22,16 +22,6 @@
         android:elevation="0dp"
         android:inputType="text"
         android:textColor="?attr/actionModeSplitBackground" />
-
-    <Button
-        android:text="SendMsg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:onClick="SendMsg"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/SendMsgBT" />
 
     <TextView
         android:text="TextView"
@@ -43,12 +33,31 @@
         android:id="@+id/responseTV" />
 
     <Button
+        android:text="SendMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/SendMsgBT"
-        android:layout_alignStart="@+id/SendMsgBT"
-        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:onClick="SendMsg"
+        android:id="@+id/SendMsgBT"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/ClearButton"
-        android:text="Clear" />
+        android:text="Clear"
+        android:layout_above="@+id/responseTV"
+        android:layout_alignStart="@+id/SendMsgBT"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timerTextView"
+        android:layout_below="@+id/Command"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
 
 </RelativeLayout>

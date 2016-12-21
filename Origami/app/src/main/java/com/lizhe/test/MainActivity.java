@@ -1,5 +1,9 @@
 package com.lizhe.test;
 
+import java.util.regex.Pattern;
+
+import android.opengl.ETC1;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -8,44 +12,73 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        // Socket
+        // Widget
         Button buttonClear;
-        final EditText EtCommand;
+        EditText EtCommand;
+        TextView timerTextView;
+        TextView textResponse;
 
-
+        // Socket Info Config
         final String dstAddress = "192.168.1.104";
         final int dstPort = 8300;
-        String response = "Msg Send";
-        final TextView textResponse = (TextView) findViewById(R.id.responseTV);
 
-        // -----------------Button----------------
-        final Button button = (Button) findViewById(R.id.SendMsgBT);
-        buttonClear = (Button) findViewById(R.id.ClearButton);
-        EtCommand = (EditText) findViewById(R.id.Command);
+        //runs without a timer by reposting this handler at the end of the runnable
+        Handler timerHandler = new Handler();
+        Runnable timerRunnable = new Runnable() {
+        public void run() {
+            String CMDTmp = EtCommand.getText().toString();
+            final Pattern sPattern = Pattern.compile(".*\\bdone\\.*$", Pattern.CASE_INSENSITIVE);
+            boolean res = sPattern.matcher(CMDTmp).matches();
 
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                // EditText editText = (EditText)findViewById(R.id.Msg);
-                // editText.setText("Google is your friend.", TextView.BufferType.EDITABLE);
+            if (res) {
+                timerTextView.setText("Success");
                 Client myClient = new Client(dstAddress,
-                                             dstPort,
-                                             EtCommand.getText().toString(),
-                                             textResponse);
+                        dstPort,
+                        EtCommand.getText().toString(),
+                        textResponse);
                 myClient.execute();
+                EtCommand.setText("");
             }
-        });
-        buttonClear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                textResponse.setText("");
+            else {
+                timerTextView.setText("Failed");
             }
-        });
+
+            timerHandler.postDelayed(this, 1000);
+            }
+        };
+
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+
+            textResponse = (TextView) findViewById(R.id.responseTV);
+            String response = "Msg Send";
+
+            // -----------------Button----------------
+            final Button button = (Button) findViewById(R.id.SendMsgBT);
+            buttonClear = (Button) findViewById(R.id.ClearButton);
+            EtCommand = (EditText) findViewById(R.id.Command);
+            timerTextView = (TextView) findViewById(R.id.timerTextView);
+
+            // -----------------Timer GO----------------
+            timerHandler.postDelayed(timerRunnable, 0);
+
+            // -----------------SetListener----------------
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Client myClient = new Client(dstAddress,
+                            dstPort,
+                            EtCommand.getText().toString(),
+                            textResponse);
+                    myClient.execute();
+                }
+            });
+            buttonClear.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    textResponse.setText("");
+                }
+            });
+        }
     }
-}
