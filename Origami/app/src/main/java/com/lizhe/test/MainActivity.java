@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Runnable timerRunnable = new Runnable() {
         public void run() {
             String CMDTmp = EtCommand.getText().toString();
-            final Pattern sPattern = Pattern.compile(".*\\bdone\\.*$", Pattern.CASE_INSENSITIVE);
+            final Pattern sPattern = Pattern.compile(".*\\bover\\.*$", Pattern.CASE_INSENSITIVE);
             boolean res = sPattern.matcher(CMDTmp).matches();
 
             if (res) {
